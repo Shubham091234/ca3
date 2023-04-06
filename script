@@ -1,0 +1,10 @@
+sudo hwinfo --cpu
+sudo hwinfo --disk
+sudo hwinfo --network
+sudo hwinfo --partition
+sudo hwinfo --short
+sudo hwinfo --bios
+sudo hwinfo --sound
+sudo hwinfo --monitor
+sudo hwinfo --mouse
+sudo hwinfo --storage-ctrl
