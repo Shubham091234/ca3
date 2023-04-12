@@ -1,10 +1,35 @@
+echo "to display about CPU"
 sudo hwinfo --cpu
+
+echo "to display about memory speed"
+sudo hwinfo --cpu | grep Hz
+
+echo "to display about disk"
 sudo hwinfo --disk
+
+echo "to display about network"
 sudo hwinfo --network
+
+echo "to display about partition"
 sudo hwinfo --partition
+
+echo "to display about all logs in short"
 sudo hwinfo --short
+
+echo "to display about bios"
 sudo hwinfo --bios
+
+echo "to display about sound"
 sudo hwinfo --sound
+
+echo "to display about monitor"
 sudo hwinfo --monitor
+
+echo "to display about mouse"
 sudo hwinfo --mouse
+
+echo "to display about storage"
 sudo hwinfo --storage-ctrl
+
+echo "to display about memory"
+sudo hwinfo --memory
